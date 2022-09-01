@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700&family=Outfit:wght@400;700&display=swap");
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 1.2rem;
+  padding: 1.2rem;
+  text-align: center;
+  margin: 0 1em;
+}
+.card img {
+  width: 100%;
+}
+
+.card_body {
+  padding: 22px 10px;
+}
+.card_body h2 {
+  color: hsl(218deg, 44%, 22%);
+  padding-bottom: 15px;
+}
+.card_body p {
+  color: hsl(220deg, 15%, 55%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212deg, 45%, 89%);
+  min-height: 100vh;
+  display: grid;
+  font-size: 15px;
+}
+
+.container {
+  max-width: 360px;
+  margin: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=styles.css.map */

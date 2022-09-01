@@ -1,0 +1,23 @@
+@use '_variables' as *;
+
+.card{
+    background-color: $White;
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+    text-align: center;
+    margin: 0 1em;
+    img{
+        width: 100%;
+    }
+}
+
+.card_body{
+    padding: 22px 10px;
+    h2{
+        color: $DarkBlue;
+        padding-bottom: 15px;
+    }
+    p{
+        color: $GrayishBlue;
+    }
+}

@@ -1,0 +1,29 @@
+
+@use '_variables' as *;
+@use '_card';
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;700&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: $outfit;
+    background-color: $LightRay;
+    min-height: 100vh;
+    display: grid;
+    font-size: $paragraph;
+}
+.container{
+    //border:1px solid $GrayishBlue;
+    max-width: 360px;
+    margin: auto;
+    
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    a { color: hsl(228, 45%, 44%); }
+}
